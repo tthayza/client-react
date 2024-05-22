@@ -5,7 +5,7 @@ export default function Login() {
   return (
     <div className="login-container">
       <section className="form">
-        <img src={logoImage} id="img1" />
+        <img src={logoImage} id="img1" alt="imagem logo" />
         <form>
           <h1>Cadastro de Alunos</h1>
           <input placeholder="Email" type="email" />
